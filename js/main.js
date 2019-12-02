@@ -25,7 +25,7 @@ nav1.innerHTML = "News";
 nav2.innerHTML = "Shop";
 nav3.innerHTML = "About";
 address.innerHTML = "2601 W Dunlap Ave. Phoenix, AZ 85021";
-rroom.src = "images/sign.png";
+rroom.src = "images/sign.PNG";
 
 circle.onmouseover = highText;
 circle.onmouseout = regText;
