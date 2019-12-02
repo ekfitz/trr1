@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: none;
+  background-color: #748CAB;
+  overflow-x: hidden;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+}
+
+.material-icons {
+  position: absolute;
+  cursor: pointer;
+  top: 3%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.nav {
+  position: absolute;
+  width: 5%;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: top 0.5s;
+  z-index: 1;
+}
+
+.signbox {
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  top: 7.5%;
+  left: 25%;
+  background-color: black;
+  border-radius: 1em;
+}
+
+.subtext {
+  position: absolute;
+  width: 60%;
+  top: 80%;
+  left: 20%;
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
+}
+
+.subtext:hover {
+  background-color: white;
+  color: black;
+}
+
+#circle {
+  position: absolute;
+  width: 5%;
+  top: 3%;
+  left: 3%;
+  cursor: pointer;
+}
+
+#cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+#page1 {
+  top: 0%;
+  background: url(cover.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
+
+#menu {
+  left: 95%;
+  color: white;
+}
+
+#nav1 {
+  left: 58%;
+}
+
+#nav2 {
+  left: 63%;
+}
+
+#nav3 {
+  left: 68%;
+}
+
+#rroom {
+  position: absolute;
+  width: 80%;
+  top: 15%;
+  left: 10%;
+}
